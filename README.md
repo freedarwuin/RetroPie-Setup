@@ -1,14 +1,14 @@
-RetroPie-Setup
+Configuración de RetroPie
 ==============
 
-General Usage
+Uso general
 -------------
 
-Shell script to setup the Raspberry Pi, Vero4K, ODroid-C1 or a PC running Ubuntu with many emulators and games, using EmulationStation as the graphical front end. Bootable pre-made images for the Raspberry Pi are available for those that want a ready-to-go system, downloadable from the releases section of GitHub or via our website at https://retropie.org.uk.
+Shell script para configurar Raspberry Pi, Vero4K, ODroid-C1 o una PC con Ubuntu con muchos emuladores y juegos, utilizando EmulationStation como interfaz gráfica. Las imágenes prefabricadas de arranque para Raspberry Pi están disponibles para aquellos que desean un sistema listo para usar, que se pueden descargar desde la sección de lanzamientos de GitHub o a través de nuestro sitio web en https://retropie.org.uk.
 
-This script is designed for use on Raspberry Pi OS (previously called Raspbian) on the Raspberry Pi, OSMC on the Vero4K or Ubuntu on the ODroid-C1 or a PC.
+Este script está diseñado para usarse en Raspberry Pi OS (anteriormente llamado Raspbian) en Raspberry Pi, OSMC en Vero4K o Ubuntu en ODroid-C1 o una PC.
 
-To run the RetroPie Setup Script make sure that your APT repositories are up-to-date and that Git is installed:
+Para ejecutar el script de configuración de RetroPie, asegúrese de que sus repositorios APT estén actualizados y que Git esté instalado:
 
 ```shell
 sudo apt-get update
@@ -16,36 +16,36 @@ sudo apt-get dist-upgrade
 sudo apt-get install git
 ```
 
-Then you can download the latest RetroPie setup script with:
+Luego puede descargar el último script de configuración de RetroPie con:
 
 ```shell
 cd
 git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
 ```
 
-The script is executed with:
+El script se ejecuta con:
 
 ```shell
 cd RetroPie-Setup
 sudo ./retropie_setup.sh
 ```
 
-When you first run the script it may install some additional packages that are needed.
+Cuando ejecuta el script por primera vez, es posible que instale algunos paquetes adicionales necesarios.
 
-Binaries and Sources
+Binarios y fuentes
 --------------------
 
-On the Raspberry Pi, RetroPie Setup offers the possibility to install from binaries or source. For other supported platforms only a source install is available. Installing from binary is recommended on a Raspberry Pi as building everything from source can take a long time.
+En Raspberry Pi, RetroPie Setup ofrece la posibilidad de instalar desde binarios o fuentes. Para otras plataformas compatibles, solo está disponible una instalación de origen. Se recomienda instalar desde binario en una Raspberry Pi, ya que construir todo desde la fuente puede llevar mucho tiempo.
 
-For more information, visit the site at https://retropie.org.uk or the repository at https://github.com/RetroPie/RetroPie-Setup.
+Para obtener más información, visite el sitio en https://retropie.org.uk o el repositorio en https://github.com/RetroPie/RetroPie-Setup.
 
-Docs
+Documentos
 ----
 
-You can find useful information about several components and answers to frequently asked questions in the [RetroPie Docs](https://retropie.org.uk/docs/). If you think that there is something missing, you are invited to submit a pull request to the [RetroPie-Docs repository](https://github.com/RetroPie/RetroPie-Docs).
+Puede encontrar información útil sobre varios componentes y respuestas a preguntas frecuentes en [RetroPie Docs] (https://retropie.org.uk/docs/). Si cree que falta algo, lo invitamos a enviar una solicitud de extracción al [repositorio RetroPie-Docs] (https://github.com/RetroPie/RetroPie-Docs).
 
 
-Thanks
+Gracias
 ------
 
-This script just simplifies the usage of the great works of many other people that enjoy the spirit of retrogaming. Many thanks go to them!
+Este script simplemente simplifica el uso de las grandes obras de muchas otras personas que disfrutan del espíritu del retrogaming. ¡Muchas gracias a ellos!
