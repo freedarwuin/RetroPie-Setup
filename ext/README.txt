@@ -1,13 +1,13 @@
-You can checkout additional repositories here to add 3rd party modules.
+Puede consultar repositorios adicionales aquí para agregar módulos de terceros.
 
-Repositories should be structured so you have:
+Los repositorios deben estar estructurados para que tenga:
 
 ext/REPOSITORY_NAME/scriptmodules
 
-Modules are only read from the following subfolders of scriptmodules:
- * emulators
- * libretrocores
- * ports
- * supplementary
- * admin
+Los módulos solo se leen de las siguientes subcarpetas de scriptmodules:
+  * emuladores
+  * libretrocores
+  * puertos
+  * suplementario
+  * administrador
 
